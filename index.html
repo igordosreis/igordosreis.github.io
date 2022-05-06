@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <style>
+        .description {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #nomecompleto {
+            font-family: monospace;
+            font-size: 1.25em;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,16 +27,20 @@
 
     <h2><a href="#links">Links interessantes</a></h2>
 
-    <h3>Sobre mim</h3>
-    <img src="foto_eu.jpeg" width="300px"
-        alt="Foto do Igor usando uma camiseta preta e olhando para a câmera, com uma parede cinza no fundo" id="foto">
+    <spam class="description">
+        <h3>Sobre mim</h3>
+        <img src="foto_eu.jpeg" width="300px"
+            alt="Foto do Igor usando uma camiseta preta e olhando para a câmera, com uma parede cinza no fundo"
+            id="foto">
 
-    <p>Eu me chamo Igor dos Reis, sou brasileiro e moro em Belo Horizonte. Atualmente sou um estudante de
-        desenvolvimento web na Turma 23 da Trybe.
+        <p>Eu me chamo <spam id="nomecompleto">Igor dos Reis</spam>, sou <em>brasileiro</em> e moro em <em>Belo
+                Horizonte</em>. Atualmente sou um estudante de
+            desenvolvimento web na Turma 23 da Trybe.
 
-        <br>Gosto de treinar força, jogar videogame e tomar cerveja, <em>principalmente IPA</em>.
+            <br>Gosto de treinar força, jogar videogame e tomar cerveja, <em>principalmente IPA</em>.
 
-    </p>
+        </p>
+    </spam>
 
     <h3 id="habilidades">Habilidades</h3>
     <p>Sei me comunicar bem em inglês.</p>
