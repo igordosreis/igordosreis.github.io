@@ -5,45 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfólio Web</title>
-    <style>
-        strong {
-            font-style: oblique;
-        }
-
-        em {
-            color: brown;
-        }
-
-        body {
-            background-color: antiquewhite;
-        }
-
-        .description {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        #nomecompleto {
-            font-family: monospace;
-            font-size: 1.25em;
-        }
-
-        .skill1 {
-            font-size: 1.1em;
-        }
-
-        .skill2 {
-            font-size: 0.9em;
-        }
-
-        #foto {
-            border-radius: 20%;
-        }
-
-        .links {
-            text-decoration: none;
-        }
-    </style>
+  
 </head>
 
 <body>
@@ -55,31 +19,29 @@
 
     <h2><a href="#links" class="links">Links interessantes</a></h2>
 
-    <spam class="description">
-        <h3>Sobre mim</h3>
+    <h3>Sobre mim</h3>
+    
+    <div class="profile">
+       
         <img src="foto_eu.jpeg" width="300px"
             alt="Foto do Igor usando uma camiseta preta e olhando para a câmera, com uma parede cinza no fundo"
             id="foto">
 
-        <p>Eu me chamo <spam id="nomecompleto"> Igor dos Reis</spam>, sou <em>brasileiro</em> e moro em <em>Belo
+        <div class="description">Eu me chamo <spam id="nomecompleto"> Igor dos Reis</spam>, sou <em>brasileiro</em> e moro em <em>Belo
                 Horizonte</em>.
             <br> Atualmente sou um estudante de
             desenvolvimento web na Turma 23 da Trybe.
 
             <br>Gosto de treinar força, jogar videogame e tomar cerveja, <em>principalmente IPA</em>.
 
-        </p>
-    </spam>
+        </div>
+    </div>
 
     <h3 id="habilidades">Habilidades</h3>
     <ul>
-        <spam class="skill1">
-            <li>Me comunico bem em inglês.</li>
-        </spam>
-        <spam class="skill2">
-            <li>Consigo fazer uma flexão de braços de cabeça para baixo e <strong>sem apoiar na parede.</strong></li>
+            <li class="skill1">Me comunico bem em inglês.</li>
+            <li class="skill2">Consigo fazer uma flexão de braços de cabeça para baixo e <strong>sem apoiar na parede.</strong></li>
     </ul>
-    </spam>
 
     <h3 id="links">Links interessantes</h3>
     <p><a href="https://wiktenauer.com/" target="_blank" class="links">Wiktenauer</a>: uma biblioteca gratuita de livros

@@ -1,0 +1,60 @@
+body {
+    padding: 5%;
+}
+
+strong {
+    font-style: oblique;
+}
+
+em {
+    color: brown;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.profile {
+
+    height:305px;
+}
+
+#nomecompleto {
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+.skill1 {
+    font-size: 1.1em;
+}
+
+.skill2 {
+    font-size: 0.9em;
+}
+
+#foto {
+    border-radius: 20%;
+    float: left;
+    padding: 5px;
+    background-color: azure;
+}
+
+.links {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+
+ul li:nth-child(odd) {
+    text-decoration: overline;
+}
+
