@@ -26,10 +26,12 @@ body {
 
 .skill1 {
     font-size: 1.1em;
+    overflow: auto;
 }
 
 .skill2 {
     font-size: 0.9em;
+    overflow: auto;
 }
 
 #foto {
@@ -41,6 +43,7 @@ body {
 
 .links {
     text-decoration: none;
+    overflow: auto;
 }
 
 h1 {
@@ -52,6 +55,7 @@ h1 {
     position: relative;
     top: 40%;
     left: 5%;
+    overflow: auto;
 }
 
 ul li:nth-child(odd) {
